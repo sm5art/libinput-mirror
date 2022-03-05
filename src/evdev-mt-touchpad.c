@@ -200,7 +200,7 @@ tp_detect_wobbling(struct tp_dispatch *tp,
 
 		t->hysteresis.x_motion_history |= bit(2);
 		if (t->hysteresis.x_motion_history == r_l_r) {
-			tp->hysteresis.enabled = true;
+			// tp->hysteresis.enabled = true;
 			evdev_log_debug(tp->device,
 					"hysteresis enabled. "
 					"See %s/touchpad-jitter.html for details\n",
