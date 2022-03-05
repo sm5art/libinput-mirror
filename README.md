@@ -1,6 +1,6 @@
-libinput
+libinput (MIRRORED) CONTAINS DELL XPS 15 TRACKPAD DELAY FIXES 
 ========
-
+This is the original libinput library mirror with a dell xps touchpad fix that disables hyperemisis enabling on small mouse movements
 libinput is a library that provides a full input stack for display servers
 and other applications that need to handle input devices provided by the
 kernel.
